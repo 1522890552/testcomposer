@@ -1,0 +1,26 @@
+{
+    "name": "zhouzhou/verify",
+    "description": "测试composer 开发",
+    "type": "library",
+
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "authors": [
+        {
+            "name": "粥粥",
+            "email": "1522890552@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Oneinit\\": "src/"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "Oneinit\\":"src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
